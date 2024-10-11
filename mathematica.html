@@ -1,110 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="Luis R. Izquierdo's code" />
+      <meta name="author" content="Luis R. Izquierdo" />
 
-<head>
+      <title>Mathematica models</title>
 
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="Luis R. Izquierdo's code">
-   <meta name="author" content="Luis R. Izquierdo">
+      <!-- Bootstrap Core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-   <title>Mathematica models</title>
+      <!-- Custom Fonts -->
+      <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css" />
+      <link
+         href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
+         rel="stylesheet"
+         type="text/css" />
+      <link
+         href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+         rel="stylesheet"
+         type="text/css" />
 
-   <!-- Bootstrap Core CSS -->
-   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Theme CSS -->
+      <link href="css/agency.css" rel="stylesheet" />
 
-   <!-- Custom Fonts -->
-   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
 
-   <!-- Theme CSS -->
-   <link href="css/agency.css" rel="stylesheet">
+   <!-- header background: https://unsplash.com/?photo=lVDnLUACI18 -->
 
-   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-   <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<!-- header background: https://unsplash.com/?photo=lVDnLUACI18 -->
-
-<body id="page-top" class="index">
-
-   <!-- Navigation -->
-   <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top" style="background-color: #222222">
-      <div class="container">
-         <!-- Brand and toggle get grouped for better mobile display -->
-         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="./index.html#portfolio" style="font-size: 21px">Luis R. Izquierdo</a>
-
-         </div>
-         <!-- Collect the nav links, forms, and other content for toggling -->
-         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-               <li class="hidden">
-                  <a href="#page-top"></a>
-               </li>
-               <li>
-                  <a class="page-scroll" href="./netlogo.html">NETLOGO MODELS</a>
-               </li>
-               <li>
-                  <a class="page-scroll" href="#page-top">MATHEMATICA MODELS</a>
-               </li>
-            </ul>
-         </div>
-         <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-   </nav>
-
-
-
-   <div class="container" style="padding:80px 0px 0px 0px">
-
-      <div class="row">
-         <!--         Row with only one card in the middle-->
-
-         <div class="col-xs-0 col-sm-3">
-         </div>
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="https://luis-r-izquierdo.github.io/EvoDyn-3s/">EvoDyn-3s</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="https://luis-r-izquierdo.github.io/EvoDyn-3s/"><img src="img/portfolio/mathematica/evodyn-3s.png" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  EvoDyn-3s is a Mathematica computable document designed to analyze evolutionary dynamics in 3-strategy games. It generates phase portraits, computes rest points, and shows the eigenvalues at the rest points. For further details, please read the paper <a target="_blank" href="https://doi.org/10.1016/j.softx.2018.07.006">"EvoDyn-3s: A Mathematica Computable Document to Analyze Evolutionary Dynamics in 3-Strategy Games"</a>.
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> &amp; <a href="http://www.ssc.wisc.edu/~whs/">Bill Sandholm</a></div>
+   <body id="page-top" class="index">
+      <!-- Navigation -->
+      <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top" style="background-color: #222222">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+               <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand page-scroll" href="./index.html#portfolio" style="font-size: 21px"
+                  >Luis R. Izquierdo</a
+               >
             </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                     <a href="#page-top"></a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="./netlogo.html">NETLOGO MODELS</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#page-top">MATHEMATICA MODELS</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+
+      <div class="container" style="padding: 80px 0px 0px 0px">
+         <div class="row">
+            <!--         Row with only one card in the middle-->
+
+            <div class="col-xs-0 col-sm-3"></div>
+
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a target="_blank" href="https://luis-r-izquierdo.github.io/EvoDyn-3s/">EvoDyn-3s</a>
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="https://luis-r-izquierdo.github.io/EvoDyn-3s/"
+                        ><img src="img/portfolio/mathematica/evodyn-3s.png" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     EvoDyn-3s is a Mathematica computable document designed to analyze evolutionary dynamics in
+                     3-strategy games. It generates phase portraits, computes rest points, and shows the eigenvalues at
+                     the rest points. For further details, please read the paper
+                     <a target="_blank" href="https://doi.org/10.1016/j.softx.2018.07.006"
+                        >"EvoDyn-3s: A Mathematica Computable Document to Analyze Evolutionary Dynamics in 3-Strategy
+                        Games"</a
+                     >.
+                  </div>
+                  <div class="panel-footer">
+                     Together with
+                     <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> &amp;
+                     <a href="http://www.ssc.wisc.edu/~whs/">Bill Sandholm</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-xs-0 col-sm-3"></div>
          </div>
 
-
-         <div class="col-xs-0 col-sm-3">
-         </div>
-
-      </div>
-
-
-      <div class="row">
-
-         <!--<div class="col-xs-12 col-sm-6">
+         <div class="row">
+            <!--<div class="col-xs-12 col-sm-6">
             <div class="panel panel-default">
                <div class="panel-heading">
                   <h3 class="panel-title"><a target="_blank" href="https://luis-r-izquierdo.github.io/EvoDyn-3s/">EvoDyn-3s</a> </h3>
@@ -119,212 +131,365 @@
             </div>
          </div>-->
 
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="https://doi.org/10.5281/zenodo.12763923">3-strategy Replicator Dynamics with Selective Assortment</a> </h3>
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a target="_blank" href="https://doi.org/10.5281/zenodo.12763923"
+                           >3-strategy Replicator Dynamics with Selective Assortment</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="https://doi.org/10.5281/zenodo.12763923"
+                        ><img
+                           src="img/portfolio/mathematica/negative-assortment.jpg"
+                           class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     This is a Mathematica notebook created to analyze the replicator dynamics in 3-strategy games under
+                     positive and negative selective assortment. For further details, please read the paper
+                     <a target="_blank" href="https://www.segis.izqui.org/files/SelectiveAssortment.pdf"
+                        >"Positive and negative selective assortment in pairwise interactions"</a
+                     >.
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> and
+                     <a target="_blank" href="https://personal.math.ubc.ca/~hauert/">Christoph Hauert</a>
+                  </div>
                </div>
-               <div class="panel-image">
-                  <a target="_blank" href="https://doi.org/10.5281/zenodo.12763923"><img src="img/portfolio/mathematica/negative-assortment.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  This is a Mathematica notebook created to analyze the replicator dynamics in 3-strategy games under positive and negative selective assortment. For further details, please read the paper <a target="_blank" href="https://www.segis.izqui.org/files/SelectiveAssortment.pdf">"Positive and negative selective assortment in pairwise interactions"</a>.
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> and <a target="_blank" href="https://personal.math.ubc.ca/~hauert/">Christoph Hauert</a></div>
             </div>
-         </div>
 
-
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="https://zenodo.org/doi/10.5281/zenodo.10975163">Pair approximation for regular networks</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="https://zenodo.org/doi/10.5281/zenodo.10975163"><img src="img/portfolio/mathematica/pair-approximation.png" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  This is a Mathematica notebook created to solve the pair approximation for 2x2 symmetric games on regular networks. The pair approximation is a system of differential equations explained in detail in <a target="_blank" href="https://wisc.pb.unizin.org/agent-based-evolutionary-game-dynamics/chapter/2-4/">section 2.4</a> of the free online book <a target="_blank" href="https://wisc.pb.unizin.org/agent-based-evolutionary-game-dynamics">Agent-based Evolutionary Game Dynamics</a>.
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> and <a target="_blank" href="https://personal.math.ubc.ca/~hauert/">Christoph Hauert</a></div>
-            </div>
-         </div>
-
-
-      </div>
-
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="https://github.com/luis-r-izquierdo/bep-tcg/">BEP-3s-sp</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="https://zenodo.org/doi/10.5281/zenodo.7156265"><img src="img/portfolio/mathematica/BEP-3s-sp.png" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  BEP-3s-sp is a Mathematica notebook created to analyze Best Experienced Payoff (BEP) dynamics in 3 strategy games with several players. This software was used to create several figures in the paper <a href="https://doi.org/10.1016/j.geb.2022.12.006">"Strategy sets closed under payoff sampling"</a>.
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a></div>
-            </div>
-         </div>
-
-
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://luis.izqui.org/models/the_replicator-mutator_dynamics_with_3_strategies.cdf">Replicator-Mutator Dynamics</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://luis.izqui.org/models/the_replicator-mutator_dynamics_with_3_strategies.cdf"><img src="img/portfolio/mathematica/replicator-mutator.png" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Replicator-Mutator Dynamics with Three Strategies. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.3390/g2030355">"Strictly Dominated Strategies in the Replicator-Mutator Dynamics"</a>. There is also a <a target="_blank" href="http://demonstrations.wolfram.com/ReplicatorMutatorDynamicsWithThreeStrategies/">Mathematica demonstration.</a>
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a></div>
-            </div>
-         </div>
-
-
-      </div>
-
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/ExpectedMotionIn2x2SymmetricGamesPlayedByReinforcementLearne/">Reinforcement Learners</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/ExpectedMotionIn2x2SymmetricGamesPlayedByReinforcementLearne/"><img src="img/portfolio/mathematica/reinforcement-learners.jpg" class="img-responsive img-centered" /></a>
-               </div>
-
-               <div class="panel-body">
-                  Expected Motion in 2x2 Symmetric Games Played by Reinforcement Learners. For further details, please read the paper <a target="_blank" href="http://jasss.soc.surrey.ac.uk/11/2/1.html">"Reinforcement Learning Dynamics in Social Dilemmas"</a>
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a></div>
-            </div>
-         </div>
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/InferenceWithFuzzyIFTHENRules/">Mamdani Fuzzy Systems</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/InferenceWithFuzzyIFTHENRules/"><img src="img/portfolio/mathematica/fuzzy.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Inference with Fuzzy IF-THEN Rules. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.18564/jasss.2885">"Fuzzy Logic for Social Simulation using Mathematica"</a>
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a></div>
-            </div>
-         </div>
-
-      </div>
-
-
-
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelIn2x2SymmetricGames/">Expected Dynamics in 1-population 2x2 Symmetric Games</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelIn2x2SymmetricGames/"><img src="img/portfolio/mathematica/exp-dyn-1-pop.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Expected Dynamics of an Imitation Model in 2x2 Symmetric Games. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a target="_blank" href="https://zenodo.org/doi/10.5281/zenodo.10975163"
+                           >Pair approximation for regular networks</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="https://zenodo.org/doi/10.5281/zenodo.10975163"
+                        ><img
+                           src="img/portfolio/mathematica/pair-approximation.png"
+                           class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     This is a Mathematica notebook created to solve the pair approximation for 2x2 symmetric games on
+                     regular networks. The pair approximation is a system of differential equations explained in detail
+                     in
+                     <a
+                        target="_blank"
+                        href="https://wisc.pb.unizin.org/agent-based-evolutionary-game-dynamics/chapter/iii-5/"
+                        >chapter III-5</a
+                     >
+                     of the free online book
+                     <a target="_blank" href="https://wisc.pb.unizin.org/agent-based-evolutionary-game-dynamics"
+                        >Agent-based Evolutionary Game Dynamics</a
+                     >.
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> and
+                     <a target="_blank" href="https://personal.math.ubc.ca/~hauert/">Christoph Hauert</a>
+                  </div>
                </div>
             </div>
          </div>
 
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelForInterPop/">Expected Dynamics in 2-population 2x2 Symmetric Games</a></h3>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a target="_blank" href="https://github.com/luis-r-izquierdo/bep-tcg/">BEP-3s-sp</a>
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="https://zenodo.org/doi/10.5281/zenodo.7156265"
+                        ><img src="img/portfolio/mathematica/BEP-3s-sp.png" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     BEP-3s-sp is a Mathematica notebook created to analyze Best Experienced Payoff (BEP) dynamics in 3
+                     strategy games with several players. This software was used to create several figures in the paper
+                     <a href="https://doi.org/10.1016/j.geb.2022.12.006">"Strategy sets closed under payoff sampling"</a
+                     >.
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
                </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelForInterPop/"><img src="img/portfolio/mathematica/exp-dyn-2-pop.png" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Expected Dynamics of an Intra-Population Imitation Model for Inter-Population 2x2 Symmetric Games. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://luis.izqui.org/models/the_replicator-mutator_dynamics_with_3_strategies.cdf"
+                           >Replicator-Mutator Dynamics</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://luis.izqui.org/models/the_replicator-mutator_dynamics_with_3_strategies.cdf"
+                        ><img
+                           src="img/portfolio/mathematica/replicator-mutator.png"
+                           class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Replicator-Mutator Dynamics with Three Strategies. For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.3390/g2030355"
+                        >"Strictly Dominated Strategies in the Replicator-Mutator Dynamics"</a
+                     >. There is also a
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/ReplicatorMutatorDynamicsWithThreeStrategies/"
+                        >Mathematica demonstration.</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
                </div>
             </div>
          </div>
 
-      </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/ExpectedMotionIn2x2SymmetricGamesPlayedByReinforcementLearne/"
+                           >Reinforcement Learners</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/ExpectedMotionIn2x2SymmetricGamesPlayedByReinforcementLearne/"
+                        ><img
+                           src="img/portfolio/mathematica/reinforcement-learners.jpg"
+                           class="img-responsive img-centered"
+                     /></a>
+                  </div>
 
+                  <div class="panel-body">
+                     Expected Motion in 2x2 Symmetric Games Played by Reinforcement Learners. For further details,
+                     please read the paper
+                     <a target="_blank" href="http://jasss.soc.surrey.ac.uk/11/2/1.html"
+                        >"Reinforcement Learning Dynamics in Social Dilemmas"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
+               </div>
+            </div>
 
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelInTheHawkDoveGame/">Expected Dynamics in the 1-population Hawk-Dove Game</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelInTheHawkDoveGame/"><img src="img/portfolio/mathematica/exp-dyn-1-pop-hawk-dove.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Expected Dynamics of an Imitation Model in the Hawk-Dove Game. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a target="_blank" href="http://demonstrations.wolfram.com/InferenceWithFuzzyIFTHENRules/"
+                           >Mamdani Fuzzy Systems</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="http://demonstrations.wolfram.com/InferenceWithFuzzyIFTHENRules/"
+                        ><img src="img/portfolio/mathematica/fuzzy.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Inference with Fuzzy IF-THEN Rules. For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.18564/jasss.2885"
+                        >"Fuzzy Logic for Social Simulation using Mathematica"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
                </div>
             </div>
          </div>
 
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelInTheTwoPop/">Expected Dynamics in the 2-population Hawk-Dove Game</a></h3>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelIn2x2SymmetricGames/"
+                           >Expected Dynamics in 1-population 2x2 Symmetric Games</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelIn2x2SymmetricGames/"
+                        ><img src="img/portfolio/mathematica/exp-dyn-1-pop.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Expected Dynamics of an Imitation Model in 2x2 Symmetric Games. For further details, please read
+                     the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
                </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelInTheTwoPop/"><img src="img/portfolio/mathematica/exp-dyn-2-pop-hawk-dove.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Expected Dynamics of an Intra-Population Imitation Model in the Two-Population Hawk-Dove Game. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelForInterPop/"
+                           >Expected Dynamics in 2-population 2x2 Symmetric Games</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelForInterPop/"
+                        ><img src="img/portfolio/mathematica/exp-dyn-2-pop.png" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Expected Dynamics of an Intra-Population Imitation Model for Inter-Population 2x2 Symmetric Games.
+                     For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
                </div>
             </div>
          </div>
 
-      </div>
-
-
-
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/MixingAndInfectionInATwoGroupSISModel/">Mixing in a Two-Group SIS Model</a> </h3>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelInTheHawkDoveGame/"
+                           >Expected Dynamics in the 1-population Hawk-Dove Game</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnImitationModelInTheHawkDoveGame/"
+                        ><img
+                           src="img/portfolio/mathematica/exp-dyn-1-pop-hawk-dove.jpg"
+                           class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Expected Dynamics of an Imitation Model in the Hawk-Dove Game. For further details, please read the
+                     paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
                </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/MixingAndInfectionInATwoGroupSISModel/"><img src="img/portfolio/mathematica/mixing.jpg" class="img-responsive img-centered" /></a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelInTheTwoPop/"
+                           >Expected Dynamics in the 2-population Hawk-Dove Game</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/ExpectedDynamicsOfAnIntraPopulationImitationModelInTheTwoPop/"
+                        ><img
+                           src="img/portfolio/mathematica/exp-dyn-2-pop-hawk-dove.jpg"
+                           class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Expected Dynamics of an Intra-Population Imitation Model in the Two-Population Hawk-Dove Game. For
+                     further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
                </div>
-               <div class="panel-body">
-                  Mixing and Infection in a Two-Group SIS Model. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1098/rsos.172102">"Mixing and diffusion in a two-type population "</a>
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> &amp; <a target="_blank" href="https://sites.google.com/site/dlopezpintado/">Dunia L&oacute;pez Pintado</a></div>
             </div>
          </div>
 
-         <!--<div class="col-xs-12 col-sm-6">
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/MixingAndInfectionInATwoGroupSISModel/"
+                           >Mixing in a Two-Group SIS Model</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="http://demonstrations.wolfram.com/MixingAndInfectionInATwoGroupSISModel/"
+                        ><img src="img/portfolio/mathematica/mixing.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Mixing and Infection in a Two-Group SIS Model. For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1098/rsos.172102"
+                        >"Mixing and diffusion in a two-type population "</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with
+                     <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> &amp;
+                     <a target="_blank" href="https://sites.google.com/site/dlopezpintado/"
+                        >Dunia L&oacute;pez Pintado</a
+                     >
+                  </div>
+               </div>
+            </div>
+
+            <!--<div class="col-xs-12 col-sm-6">
             <div class="panel panel-default">
                <div class="panel-heading">
                   <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/DifferenceEquationVersusDifferentialEquation/">Difference Equation vs Differential Equation</a> </h3>
@@ -339,181 +504,254 @@
             </div>
          </div>-->
 
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="https://demonstrations.wolfram.com/DynamicsOfThreeStrategySymmetricGames/">Dynamics of Three-Strategy Symmetric Games</a> </h3>
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="https://demonstrations.wolfram.com/DynamicsOfThreeStrategySymmetricGames/"
+                           >Dynamics of Three-Strategy Symmetric Games</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="https://demonstrations.wolfram.com/DynamicsOfThreeStrategySymmetricGames/"
+                        ><img
+                           src="img/portfolio/mathematica/dynamics-3-strategy-symmetric-games.jpg"
+                           class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Dynamics of Three-Strategy Symmetric Games. For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with
+                     <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> &amp;
+                     <a href="http://www.ssc.wisc.edu/~whs/">Bill Sandholm</a>
+                  </div>
                </div>
-               <div class="panel-image">
-                  <a target="_blank" href="https://demonstrations.wolfram.com/DynamicsOfThreeStrategySymmetricGames/"><img src="img/portfolio/mathematica/dynamics-3-strategy-symmetric-games.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Dynamics of Three-Strategy Symmetric Games. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a> &amp; <a href="http://www.ssc.wisc.edu/~whs/">Bill Sandholm</a></div>
             </div>
          </div>
 
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/DifferenceEquationVersusDifferentialEquation/"
+                           >Difference Equation vs Differential Equation</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/DifferenceEquationVersusDifferentialEquation/"
+                        ><img src="img/portfolio/mathematica/diff-equation.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Difference Equation versus Differential Equation. For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
+               </div>
+            </div>
 
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a target="_blank" href="https://github.com/luis-r-izquierdo/bep-tcg/"
+                           >Best Experienced Payoff dynamics in 3-strategy Tacit Coordination Games</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="https://github.com/luis-r-izquierdo/bep-tcg/"
+                        ><img src="img/portfolio/mathematica/bep-tcg.png" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     Best Experienced Payoff (BEP) dynamics in 3-strategy Tacit Coordination Games (TCG). For further
+                     details, please read the paper
+                     <a target="_blank" href="https://doi.org/10.1016/j.jet.2022.105553"
+                        >"Stability of Strict Equilibria in Best Experienced Payoff Dynamics: Simple Formulas and
+                        Applications"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/AnImitationModelFor2x2SymmetricGames/"
+                           >An Imitation Model for 1-population 2x2 Symmetric Games</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="http://demonstrations.wolfram.com/AnImitationModelFor2x2SymmetricGames/"
+                        ><img src="img/portfolio/mathematica/1-pop.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     An Imitation Model for 2x2 Symmetric Games. For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/"
+                           >An Imitation Model for 2-population 2x2 Symmetric Games</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/"
+                        ><img src="img/portfolio/mathematica/2-pop.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     An Intra-Population Imitation Model for Inter-Population 2x2 Symmetric Games. For further details,
+                     please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a target="_blank" href="http://demonstrations.wolfram.com/AnImitationModelInTheHawkDoveGame/"
+                           >An Imitation Model in the 1-population Hawk-Dove game</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a target="_blank" href="http://demonstrations.wolfram.com/AnImitationModelInTheHawkDoveGame/"
+                        ><img src="img/portfolio/mathematica/1-pop-hawk-dove.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     An Imitation Model in the Hawk-Dove Game. For further details, please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">
+                        <a
+                           target="_blank"
+                           href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/"
+                           >An Imitation Model in the 2-population Hawk-Dove game</a
+                        >
+                     </h3>
+                  </div>
+                  <div class="panel-image">
+                     <a
+                        target="_blank"
+                        href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/"
+                        ><img src="img/portfolio/mathematica/2-pop-hawk-dove.jpg" class="img-responsive img-centered"
+                     /></a>
+                  </div>
+                  <div class="panel-body">
+                     An Intra-Population Imitation Model in the Two-Population Hawk-Dove Game. For further details,
+                     please read the paper
+                     <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z"
+                        >"Stochastic Approximation to Understand Simple Simulation Models"</a
+                     >
+                  </div>
+                  <div class="panel-footer">
+                     Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
 
+      <!-- jQuery -->
+      <script src="vendor/jquery/jquery.min.js"></script>
 
-      <div class="row">
+      <!-- Bootstrap Core JavaScript -->
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+      <!-- Plugin JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/DifferenceEquationVersusDifferentialEquation/">Difference Equation vs Differential Equation</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/DifferenceEquationVersusDifferentialEquation/"><img src="img/portfolio/mathematica/diff-equation.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Difference Equation versus Differential Equation. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a></div>
-            </div>
-         </div>
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="https://github.com/luis-r-izquierdo/bep-tcg/">Best Experienced Payoff dynamics in 3-strategy Tacit Coordination Games</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="https://github.com/luis-r-izquierdo/bep-tcg/"><img src="img/portfolio/mathematica/bep-tcg.png" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  Best Experienced Payoff (BEP) dynamics in 3-strategy Tacit Coordination Games (TCG). For further details, please read the paper <a target="_blank" href="https://doi.org/10.1016/j.jet.2022.105553">"Stability of Strict Equilibria in Best Experienced Payoff Dynamics: Simple Formulas and Applications"</a>
-               </div>
-               <div class="panel-footer">Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a></div>
-            </div>
-         </div>
-
-
-      </div>
-
-
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/AnImitationModelFor2x2SymmetricGames/">An Imitation Model for 1-population 2x2 Symmetric Games</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/AnImitationModelFor2x2SymmetricGames/"><img src="img/portfolio/mathematica/1-pop.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  An Imitation Model for 2x2 Symmetric Games. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
-               </div>
-            </div>
-         </div>
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/">An Imitation Model for 2-population 2x2 Symmetric Games</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/"><img src="img/portfolio/mathematica/2-pop.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  An Intra-Population Imitation Model for Inter-Population 2x2 Symmetric Games. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
-               </div>
-            </div>
-         </div>
-
-
-      </div>
-
-
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/AnImitationModelInTheHawkDoveGame/">An Imitation Model in the 1-population Hawk-Dove game</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/AnImitationModelInTheHawkDoveGame/"><img src="img/portfolio/mathematica/1-pop-hawk-dove.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  An Imitation Model in the Hawk-Dove Game. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
-               </div>
-            </div>
-         </div>
-
-         <div class="col-xs-12 col-sm-6">
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h3 class="panel-title"><a target="_blank" href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/">An Imitation Model in the 2-population Hawk-Dove game</a> </h3>
-               </div>
-               <div class="panel-image">
-                  <a target="_blank" href="http://demonstrations.wolfram.com/AnIntraPopulationImitationModelForInterPopulation2x2Symmetri/"><img src="img/portfolio/mathematica/2-pop-hawk-dove.jpg" class="img-responsive img-centered" /></a>
-               </div>
-               <div class="panel-body">
-                  An Intra-Population Imitation Model in the Two-Population Hawk-Dove Game. For further details, please read the paper <a target="_blank" href="http://dx.doi.org/10.1007/s10955-012-0654-z">"Stochastic Approximation to Understand Simple Simulation Models"</a>
-               </div>
-               <div class="panel-footer">
-                  Together with <a target="_blank" href="http://www.segis.izqui.org">Segismundo S. Izquierdo</a>
-               </div>
-            </div>
-         </div>
-
-
-      </div>
-
-   </div>
-
-
-
-   <!-- jQuery -->
-   <script src="vendor/jquery/jquery.min.js"></script>
-
-   <!-- Bootstrap Core JavaScript -->
-   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-   <!-- Plugin JavaScript -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-   <!-- Contact Form JavaScript -->
-   <!--
+      <!-- Contact Form JavaScript -->
+      <!--
    <script src="js/jqBootstrapValidation.js"></script>
    <script src="js/contact_me.js"></script>
    -->
-   <!-- Theme JavaScript -->
-   <script src="js/agency.min.js"></script>
+      <!-- Theme JavaScript -->
+      <script src="js/agency.min.js"></script>
 
-   <script>
-      (function(i, s, o, g, r, a, m) {
-         i['GoogleAnalyticsObject'] = r;
-         i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-         }, i[r].l = 1 * new Date();
-         a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-         a.async = 1;
-         a.src = g;
-         m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      <script>
+         (function (i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            (i[r] =
+               i[r] ||
+               function () {
+                  (i[r].q = i[r].q || []).push(arguments);
+               }),
+               (i[r].l = 1 * new Date());
+            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+         })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
 
-      ga('create', 'UA-103654169-4', 'auto');
-      ga('send', 'pageview');
-
-   </script>
-
-
-</body>
-
+         ga("create", "UA-103654169-4", "auto");
+         ga("send", "pageview");
+      </script>
+   </body>
 </html>
